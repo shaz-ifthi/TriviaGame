@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- <section id="header">
+
+        <div class="row">
+
+            <div id="empty1">
+                <div class="col-md-2">
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <div id="headerName"></div>
+                <h1 class="text-center">Trivia Game</h1>
+            </div>
+        </div>
+
+        <div id="empty2">
+            <div class="col-md-2">
+            </div>
+        </div>
+    </section>
+
+    <div id="startButton">
+        <img src="./assets/images/Start-Button.jpg" alt="" width="150" height="150">
+
+    </div> -->
+
+    <!-- <button type="button" onclick="alert('Hello world!')">Click Me!</button> -->
+
+
+    <section id="main">
+
+        <div class="row">
+
+            <div id="empty1">
+                <div class="col-md-2">
+                </div>
+            </div>
+            <!--
+                    <div id="empty2">
+                    <div class="col-md-2">
+                    </div>
+                </div>
+         -->
+            <div class="col-md-4">
+                <div id="headerName"></div>
+                <h2>Time Remaining: 30sec</h2>
+            </div>
+
+            <div id="empty3">
+                <div class="col-md-2">
+                </div>
+            </div>
+
+            <div id="empty4">
+                <div class="col-md-2">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div id= "questionsAnswers">
+            <div class="question1">
+                    <h2>Question One</h2>
+                <ul class="answers">
+                            <input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Answer 1</label>
+                            <input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Answer 2</label>
+                            <input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Answer 3</label>
+                            <input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Answer 4</label>
+                            </ul>
+                            
+                    </div>
+    
+                 <div class="question2">
+                        <h2>Question Two</h2>
+                        <ul class="answers">
+                                <input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Answer 1</label>
+                                <input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Answer 2</label>
+                                <input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Answer 3</label>
+                                <input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Answer 4</label>
+                                </ul>
+                        
+                     </div>
+                     <div class="question3">
+                            <h2>Question three</h2>
+                            <ul class="answers">
+                                    <input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Answer 1</label>
+                                    <input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Answer 2</label>
+                                    <input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Answer 3</label>
+                                    <input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Answer 4</label>
+                                    </ul>
+                          
+                         </div>
+                         <div class="question4">
+                                <h2>Question Four</h2>
+                                <ul class="answers">
+                                        <input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Answer 1</label>
+                                        <input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Answer 2</label>
+                                        <input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Answer 3</label>
+                                        <input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Answer 4</label>
+                                        </ul>
+                               
+                             </div>
+                             <div class="question5">
+                                    <h2>Question Five</h2>
+                                    <ul class="answers">
+                                            <input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Answer 1</label>
+                                            <input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Answer 2</label>
+                                            <input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Answer 3</label>
+                                            <input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Answer 4</label>
+                                            </ul>
+                                    
+                                 </div>
+
+                                 </div>
+
+                
+                
+   
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- <script src="assets/javascript/game.js"></script> -->
+
+    
+
+    <script>
+        $("#startButton").on("click", function () {
+            console.log("hello")        
+})
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+<!-- <script>
+
+        var score = 0
+        var questions = [
+            {
+                question: "Blah Blah Blah?\n(a) Answer\n(b) Answer\n(c) Answer",
+                answer: "(b)"
+            },
+            {
+                question: "Blah Blah Blah?\n(a) Answer\n(b) Answer\n(c) Answer",
+                answer: "(c)"
+            },
+            {
+                question: "Blah Blah Blah?\n(a) Answer\n(b) Answer\n(c) Answer",
+                answer: "(a)"
+            },
+            {
+                question: "Blah Blah Blah?\n(a) Answer\n(b) Answer\n(c) Answer",
+                answer: "(c)"
+            },
+            {
+                question: "Blah Blah Blah?\n(a) Answer\n(b) Answer\n(c) Answer",
+                answer: "(b)"
+            },
+
+        ]
+
+        var score = 0
+
+        for (var i = 0; i < questions.length; i++) {
+            var userAnswer = (questions[i].answer);
+            if (userAnswer === questions[i].answer) {
+                score = score + 1;
+                alert("Correct!");
+            }
+            else {
+                alert("Wrong!")
+            }
+            {
+                alert("You got " + score + "out of" + questions.length);
+            }
+        }
+
+
+
+    </script> -->
+
+
+
+
+
