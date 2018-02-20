@@ -1,3 +1,25 @@
 ul.answers{
     display:inline;
 }
+
+body{
+    background-image: url("../images/harryPotter6.jpg");
+    background-size: 100% 100%;
+      
+}
+
+h2{
+    color: white;
+}
+#questionsAnswers{
+    color: white;
+}
+
+button {
+    background-color: blue;
+    color: black;
+} 
+
+button:hover {
+    color: white;
+}
