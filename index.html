@@ -1,44 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Trivia Game</title>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-    crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <style>
+        .container {
+            width: 700px;
+            background-color: goldenrod;
+        }
+
+        #header {
+            font-style: italic;
+        }
+    </style>
+
+
 </head>
+
 <body>
 
-        <section id="header">
-<!-- 
-                <div class="row"> -->
-        
-                    <!-- <div id="empty1">
-                        <div class="col-md-2">
-                        </div>
-                    </div>
-         -->
-                    <!-- <div class="col-md-8"> -->
-                        <div id="headerName"></div>
-                        <h1 class="text-center">Trivia Game</h1>
-                    <!-- </div> -->
+    <div id="header">
+        <div class="text-center"> Harry Potter Trivia Game</div>
+    </div>
+
+    <div id="startButton">
+        <button type="button" autofocus>Start</button>
+    </div>
+
+
+
+    <section id="main">
+
+
+        <div id="headerName">
+            <!-- <h2 class="text-center">Time Remaining: 30sec</h2> -->
+            <!-- <h3>Time Remaining: 30sec</h3> -->
+
+
+        </div>
+    </section>
+
+
+    <div class="container">
+        <section id="main">
+
+            <div id="questionsAnswers">
+                <div id="question1">
+                    <h2 class="text-center">Who is the Half-Blood Prince?</h2>
+
+                    <form action="quest1">
+                        <ul class="text-center" "answers">
+                            <input type="radio" name="q1" value="a" id="q1a">
+                            <label for="q1a">Severus Snape</label>
+                            <input type="radio" name="q1" value="b" id="q1b">
+                            <label for="q1b">Argus Filch</label>
+                            <input type="radio" name="q1" value="c" id="q1c">
+                            <label for="q1c">Harry Potter</label>
+                            <input type="radio" name="q1" value="d" id="q1d">
+                            <label for="q1d">Draco Malfoy</label>
+                        </ul>
+                    </form>
+
                 </div>
-<!--         
-                <div id="empty2">
-                    <div class="col-md-2">
-                    </div>
-                </div> -->
-            </section>
-        
-            <div id="startButton">
-                <a href="./index1.html">
-                    <button type="button"autofocus>Start</button>
-                <!-- <img src="./assets/images/Start-Button.jpg" alt="" width="150" height="150"> -->
-            </a>
+
+                <div id="question2">
+                    <h2 class="text-center">What is Harry Potter's Owl's Name?</h2>
+
+                    <form action="">
+                        <ul class="text-center" "answers">
+                            <input type="radio" name="q2" value="a" id="q2a">
+                            <label for="q2a">Fuzzy</label>
+                            <input type="radio" name="q2" value="b" id="q2b">
+                            <label for="q2b">Snuffle</label>
+                            <input type="radio" name="q2" value="c" id="q2c">
+                            <label for="q2c">Hedwig</label>
+                            <input type="radio" name="q2" value="d" id="q2d">
+                            <label for="q2d">Hoots</label>
+                        </ul>
+                    </form>
+
+                </div>
+                <div id="question3">
+                    <h2 class="text-center">Which is one of the 3 Unforgivable curses?</h2>
+
+                    <form action="">
+                        <ul class="text-center" "answers">
+                            <input type="radio" name="q3" value="a" id="q3a">
+                            <label for="q3a">Expelliarmus</label>
+                            <input type="radio" name="q3" value="b" id="q3b">
+                            <label for="q3b">Cruciatus</label>
+                            <input type="radio" name="q3" value="c" id="q3c">
+                            <label for="q3c">Lumos</label>
+                            <input type="radio" name="q3" value="d" id="q3d">
+                            <label for="q3d">Wingardium Leviosa</label>
+                        </ul>
+                    </form>
+
+
+
+                </div>
+                <div id="question4">
+                    <h2 class="text-center">Which of the following ingredients is NOT needed to make Polyjuice potion?</h2>
+
+                    <form action="">
+                        <ul class="text-center" "answers">
+                            <input type="radio" name="q4" value="a" id="q4a">
+                            <label for="q4a">Lacewing flies</label>
+                            <input type="radio" name="q4" value="b" id="q4b">
+                            <label for="q4b">Dittany</label>
+                            <input type="radio" name="q4" value="c" id="q4c">
+                            <label for="q4c">Shredded skin of a Boomslang</label>
+                            <input type="radio" name="q4" value="d" id="q4d">
+                            <label for="q4d">Fluxweed</label>
+                        </ul>
+                    </form>
+
+                </div>
+                <div id="question5">
+                    <h2 class="text-center">What is not the name of one of Hagrids Pets</h2>
+
+                    <form action="">
+                        <ul class="text-center" "answers">
+                            <input type="radio" name="q5" value="a" id="q5a">
+                            <label for="q5a">Buckbeak</label>
+                            <input type="radio" name="q5" value="b" id="q5b">
+                            <label for="q5b">Norbert</label>
+                            <input type="radio" name="q5" value="c" id="q5c">
+                            <label for="q5c">Fang</label>
+                            <input type="radio" name="q5" value="d" id="q5d">
+                            <label for="q5d">Kunafa Bunny</label>
+                        </ul>
+                    </form>
+
+                </div>
+
             </div>
-        
-    
+            <!-- <div id="doneButton"autofocus>
+        <button onclick="check()">Done</button>
+    </div> -->
+
+            <div id="doneButton">
+
+                <button type="button" autofocus>Done</button>
+                <!-- <img src="./assets/images/Start-Button.jpg" alt="" width="150" height="150"> -->
+
+            </div>
+            <div id="restartButton">
+                <button type="button" autofocus>Restart</button>
+                <!-- <img src="./assets/images/Start-Button.jpg" alt="" width="150" height="150"> -->
+
+            </div>
+
+            <div id="resultsID"></div>
+        </section>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+
+
+
+
+
+
+
+
+
 </body>
+
 </html>
